@@ -1,0 +1,14 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/postfinance/devcontainer-features/node:1": {
+			"version": "20.11.1",
+			"npmVersion": "latest",
+			"yarnVersion": "latest",
+			"pnpmVersion": "latest",
+			"corepackVersion": "latest",
+			"downloadUrl": "https://mycompany.com/artifactory/nodejs-generic-remote/dist",
+			"globalNpmRegistry": "https://mycompany.com/artifactory/api/npm/npm/"
+		}
+	}
+}
