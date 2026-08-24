@@ -37,3 +37,8 @@ const myFunc = function() {
 }
 console.log(typeof myFunc);
 myFunc();
+// ++++++++++++++++++++++++++++++
+// stack(primitives) and
+//  heap(non-primitives)
+// In stack , we get copy of the value 
+// and in heap we get reference of the value 
