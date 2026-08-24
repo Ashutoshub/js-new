@@ -1,0 +1,20 @@
+// Dates
+let myDate = new Date();
+// console.log(myDate);
+// console.log(myDate.toString());
+// console.log(myDate.toDateString());
+// console.log(myDate.toTimeString());
+// console.log(myDate.toLocaleString());
+// console.log(myDate.toLocaleDateString());
+// console.log(myDate.toLocaleTimeString());
+// console.log(myDate.toJSON());
+// console.log(myDate.toUTCString());
+// console.log(myDate.toISOString());
+// console.log(typeof myDate);
+let myDate2 = new Date(2026, 0,23);
+// console.log(myDate2.toDateString());
+let mytimestamp = Date.now();
+// console.log(mytimestamp);
+let myDate3 = new Date(mytimestamp);
+// console.log(myDate3.toDateString());
+// console.log(`${myDate3.getFullYear()}-${myDate3.getMonth() + 1}-${myDate3.getDate()} ${myDate3.getHours()}:${myDate3.getMinutes()}:${myDate3.getSeconds()}`);
